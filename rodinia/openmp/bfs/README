@@ -1,0 +1,2 @@
+You can enable openmp mode in this version if you add -DOPEN into the CC_FLAGS in the Makefile.
+The default behavior is sequential.

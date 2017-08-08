@@ -1,0 +1,11 @@
+You can enable openmp mode in this version if you add -DOPENMP into the CC_FLAGS in the Makefile.
+The default behavior is sequential.
+
+To build and run nearest neighbor:
+	make nn
+	./nn filelist_4 3 30 90
+
+To generate new data sets:
+	Edit gen_dataset.sh and select the size of the desired data set
+	make hurricane_gen
+	./hurricane_gen <num records> <num files>
