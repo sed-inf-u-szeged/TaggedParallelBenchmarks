@@ -1,7 +1,7 @@
 # Tagged Parallel Benchmarks #
 
 This repository contains tagged versions of parts of the following 3 well-known benchmark suites:
-(For individual licenses and readmes, refer to the corresponding subdirectories.)
+(For individual readmes, refer to the corresponding subdirectories.)
 
 - [Parboil](http://impact.crhc.illinois.edu/parboil/parboil.aspx)
 - [Rodinia](http://lava.cs.virginia.edu/wiki/rodinia)
@@ -17,3 +17,7 @@ The expansion of these macros is completely customizable, e.g., `STATIC_BEGIN` a
 
 Some OpenCL benchmarks have been modified to be able to take the target platform/device pair and also a pre-built kernel binary from the command line.
 The corresponding helper functionality is implemented in `platform_helper.h`.
+
+## License ##
+
+Please refer to the licenses of the individual benchmark suites. There is no common license. When in doubt or you don't know what you're doing, please use the BSD or MIT license.
